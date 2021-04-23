@@ -5,6 +5,7 @@
 <link
 	href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600;700;900&display=swap"
 	rel="stylesheet">
+<link href="style.css" rel="stylesheet" >
 		<script type="text/javascript">
 		var select = document.getElementById('state');
 		//var defaultVal = document.getElementById("defaultState");
@@ -12,113 +13,7 @@
 		//console.log(defaultVal);
 		
 	</script>
-<style>
-body {
-	color: #2C3539;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-}
 
-h1, h2 {
-	text-align: center;
-	font-weight: 900;
-}
-
-h2 {
-	font-weight: 500;
-}
-
-::placeholder {
-	color: #6D7B8D;
-	text-align: center;
-}
-
-.wrap {
-	display: flex;
-	flex-direction: column;
-	width: 90%;
-	margin: auto;
-	border: 2px solid #808080;
-}
-
-.fwrapper {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.fwrapper .field {
-	padding: 25px;
-	width: 320px;
-	display: flex;
-	align-items: center;
-	/* flex-wrap: wrap; */
-	/* justify-content: center; */
-}
-
-.fwrapper .field label {
-	flex-grow: 1;
-}
-
-.fwrapper .field label.gender {
-	flex-grow: 2;
-}
-
-.fwrapper .radios input {
-	width: 20px;
-}
-
-.fwrapper .radios label {
-	margin: 0px 10px;
-	flex-grow: 0;
-}
-
-.field input, .field select {
-	/* display: block; */
-	width: 200px;
-	border-radius: 2px solid #000000;
-	height: 35px;
-}
-
-.fwrapper-row .field {
-	width: 100%;
-}
-
-.field input.mainaddress {
-	width: 75%;
-}
-
-.fwrapper-row .field label {
-	flex-grow: 0;
-	width: 15%;
-}
-
-.submitbtn {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	margin: 10px 0px;
-}
-
-input[type="submit"] {
-	/* display: block; */
-	background: #32A852;
-	border: none;
-	border-radius: 5px;
-	width: 200px;
-	height: 35px;
-	color: #ffffff;
-	font-weight: bold;
-	cursor: pointer;
-	transition: all 0.5s ease-in;
-	font-weight: 900;
-	text-transform: uppercase;
-}
-
-input[type="submit"]:hover {
-	background: #f44336;
-}
-</style>
 </head>
 <body>
 	<!-- <form name="loginForm" method="post" action="loginServlet">
@@ -131,6 +26,7 @@ input[type="submit"]:hover {
 
 	<form name="details" method="post" action="InsertData">
 		<header>
+			<a href="ViewRecord"> View Student List &rarr;</a>
 			<h1>New Student Registration</h1>
 		</header>
 		<div class="wrap">
@@ -261,6 +157,6 @@ input[type="submit"]:hover {
 		</div>
 
 	</form>
-
+	
 </body>
 </html>
